@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <TextView
+        android:id="@+id/lblUsername_Test"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/tv_1"
+        app:layout_constraintBottom_toBottomOf="@+id/tvUsername_Test"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvUsername_Test" />
+
+    <TextView
+        android:id="@+id/tvUsername_Test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lblUsername_Test"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblPassword_Test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_2"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPassword_Test"
+        app:layout_constraintEnd_toEndOf="@+id/lblUsername_Test"
+        app:layout_constraintStart_toStartOf="@+id/lblUsername_Test"
+        app:layout_constraintTop_toTopOf="@+id/tvPassword_Test" />
+
+    <TextView
+        android:id="@+id/tvPassword_Test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvUsername_Test"
+        app:layout_constraintStart_toStartOf="@+id/tvUsername_Test"
+        app:layout_constraintTop_toBottomOf="@+id/tvUsername_Test" />
+
+    <TextView
+        android:id="@+id/tvt3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvPassword_Test"
+        app:layout_constraintStart_toStartOf="@+id/tvPassword_Test"
+        app:layout_constraintTop_toBottomOf="@+id/tvPassword_Test" />
+
+    <TextView
+        android:id="@+id/tvt4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvt3"
+        app:layout_constraintStart_toStartOf="@+id/tvt3"
+        app:layout_constraintTop_toBottomOf="@+id/tvt3" />
+
+    <TextView
+        android:id="@+id/tvt5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvt4"
+        app:layout_constraintStart_toStartOf="@+id/tvt4"
+        app:layout_constraintTop_toBottomOf="@+id/tvt4" />
+
+    <TextView
+        android:id="@+id/tvt6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvt5"
+        app:layout_constraintStart_toStartOf="@+id/tvt5"
+        app:layout_constraintTop_toBottomOf="@+id/tvt5" />
+
+    <TextView
+        android:id="@+id/tvt7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvt6"
+        app:layout_constraintStart_toStartOf="@+id/tvt6"
+        app:layout_constraintTop_toBottomOf="@+id/tvt6" />
+
+    <TextView
+        android:id="@+id/tvt8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvt7"
+        app:layout_constraintStart_toStartOf="@+id/tvt7"
+        app:layout_constraintTop_toBottomOf="@+id/tvt7" />
+
+    <TextView
+        android:id="@+id/tvt9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="130dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvt8"
+        app:layout_constraintTop_toBottomOf="@+id/tvt8" />
+
+    <TextView
+        android:id="@+id/tvt10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvt8"
+        app:layout_constraintStart_toStartOf="@+id/tvt9"
+        app:layout_constraintTop_toBottomOf="@+id/tvt9" />
+
+    <TextView
+        android:id="@+id/tvt11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvt10"
+        app:layout_constraintStart_toStartOf="@+id/tvt10"
+        app:layout_constraintTop_toBottomOf="@+id/tvt10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_3"
+        app:layout_constraintBottom_toBottomOf="@+id/tvt3"
+        app:layout_constraintEnd_toEndOf="@+id/lblPassword_Test"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="@+id/lblPassword_Test"
+        app:layout_constraintTop_toTopOf="@+id/tvt3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_4"
+        app:layout_constraintBottom_toBottomOf="@+id/tvt4"
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/tvt4" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_5"
+        app:layout_constraintBottom_toBottomOf="@+id/tvt5"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="@+id/tvt5" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_6"
+        app:layout_constraintBottom_toBottomOf="@+id/tvt6"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/tvt6"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_7"
+        app:layout_constraintBottom_toBottomOf="@+id/tvt7"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="@+id/tvt7" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_8"
+        app:layout_constraintBottom_toBottomOf="@+id/tvt8"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/tvt8" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_9"
+        app:layout_constraintBottom_toBottomOf="@+id/tvt9"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="@+id/tvt9" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_10"
+        app:layout_constraintBottom_toBottomOf="@+id/tvt10"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toTopOf="@+id/tvt10" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_11"
+        app:layout_constraintBottom_toBottomOf="@+id/tvt11"
+        app:layout_constraintEnd_toEndOf="@+id/textView17"
+        app:layout_constraintStart_toStartOf="@+id/textView17"
+        app:layout_constraintTop_toTopOf="@+id/tvt11" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/tvt9"
+        app:layout_constraintEnd_toEndOf="@+id/tvt8"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvt9"
+        app:layout_constraintTop_toBottomOf="@+id/tvt8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

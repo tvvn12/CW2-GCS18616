@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Native App</string>
+    <string name="notification_01"><i>Hello</i> <b>TuongVinh</b>.</string>
+    <string name="notification_02">Submit Succesfully.</string>
+    <string name="notification_03">If (n &gt; 3 &amp;&amp; n &lt; 5) then &#8230;</string>
+    <string name="tv_1">Property Name</string>
+    <string name="tv_2">Property Address</string>
+    <string name="tv_3">City</string>
+    <string name="tv_4">District</string>
+    <string name="tv_5">Ward</string>
+    <string name="tv_6">Property Type</string>
+    <string name="tv_7">Property Furniture</string>
+    <string name="tv_8">Bedroom</string>
+    <string name="tv_9">Price</string>
+    <string name="tv_10">Reporter</string>
+    <string name="tv_11">Note</string>
+    <string name="tt"><center>Bulletin board</center></string>
+    <string name="tvt9">Vnđ\/Month</string>
+
+
+
+    <string name="btn_login">Submit</string>
+</resources>

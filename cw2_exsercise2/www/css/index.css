@@ -1,0 +1,138 @@
+* {
+  -webkit-tap-highlight-color: transparent; /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+  -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+  -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+  -webkit-user-select: none; /* prevent copy paste, to allow, change "none" to "text" */
+  font-family: system-ui, -apple-system, -apple-system-font, "Segoe UI",
+    "Roboto", sans-serif;
+  font-size: 12px;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  /* Padding to avoid the "unsafe" areas behind notches in the screen */
+  padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px)
+    env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+  width: 100%;
+}
+.small-text {
+  color: #00704a;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  margin-top: 20px !important;
+}
+/* .ui-input-text input, .ui-input-search input {
+  margin: 0;
+  min-height: 2.2em;
+  text-align: left;
+  border: 0;
+  background: transparent none;
+  -webkit-appearance: none;
+  -webkit-border-radius: inherit;
+  border-radius: inherit;
+} */
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: red;
+}
+
+
+
+.ui-page .ui-header,
+.ui-page .ui-footer .ui-navbar ul li a {
+  width: 100%;
+  height: 50px;
+  color: green;
+  text-shadow: none;
+  background-color: #00704a;
+  border-color: green;
+}
+@-webkit-keyframes my {
+  0% { color: #F8CD0A; } 
+  50% { color: #fff;  } 
+  100% { color: #F8CD0A;  } 
+}
+@-moz-keyframes my { 
+  0% { color: #F8CD0A;  } 
+  50% { color: #fff;  }
+  100% { color: #F8CD0A;  } 
+}
+@-o-keyframes my { 
+  0% { color: #F8CD0A; } 
+  50% { color: #fff; } 
+  100% { color: #F8CD0A;  } 
+}
+@keyframes my { 
+  0% { color: #F8CD0A;  } 
+  50% { color: #fff;  }
+  100% { color: #F8CD0A;  } 
+} 
+.chu {
+        background: whitesmoke;
+        font-size:24px;
+        font-weight:bold;
+  -webkit-animation: my 700ms infinite;
+  -moz-animation: my 700ms infinite; 
+  -o-animation: my 700ms infinite; 
+  animation: my 700ms infinite;
+}
+
+
+.active {
+  background-color: red !important;
+}
+
+.green{
+  color: green !important;
+
+}
+.data-clear-btn{
+  color: red;
+}
+
+
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#btn-delete {
+  color: white;
+  background-color: #00704a;
+  border: none;
+  text-shadow: none;
+}
+
+.list {
+  border: solid 1px #00704a;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px;
+  padding: 5px 15px;
+  margin: 10px 0px;
+}
+.ui-content-i{
+  background-image: url("images/hinh-nen-background-mau-trang-dep.jpg");
+  background-repeat: no-repeat;
+  background-size: 700px;
+}
+a.ui-btn.ui-btn-icon-right.ui-icon-carat-r {
+  background-image: url("images/nen-background-mau-trang-dep-768x510.jpg");
+}
+.ui-content-de{
+  background-image: url("images/36660dfd68d1f2aab9be0d94569e4d64.jpg");
+  background-repeat: no-repeat;
+  background-size: 1600px;
+}
+.ui-content-se{
+  background-image: url("images/4a5a9b3ecd4a0e0b78242a61bd7f8541--city-wallpaper-black-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 1600px;
+}
